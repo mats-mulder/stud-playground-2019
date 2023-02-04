@@ -1,0 +1,640 @@
+@font-face {
+    font-family: swiss;
+    src: url('../assets/swiss.ttf');
+}
+
+#barba-wrapper{
+    overflow-y: hidden;
+
+    overflow-x: hidden;
+
+}
+
+body{
+    background-color: #ebf2b6;
+    -o-transition:1s;
+    -ms-transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s
+}
+
+.textInfo{
+    font-family: swiss;
+    font-size: 3vh;
+    text-align: justify;
+    margin-top:7vh;
+    margin-bottom:10vh;
+    color: #000;
+}
+
+footer{
+    margin-top: 15vh;
+}
+
+#welcomeText{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 4vh;
+    opacity: 0;
+}
+
+#welcomeTextHolder{
+    position: absolute;
+    bottom:3.5vh;
+}
+
+#loadScreen{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    background-color: #ebf2b6;
+    -o-transition:1s;
+    -ms-transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+    /* ...and now for the proper property */
+    transition:1s;
+}
+
+#loadText{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 5vh;
+    margin-top: 40vh;
+}
+
+.titleHolder{
+    padding:0px;
+}
+
+.pageTitleHolder{
+    margin-left: 10vw;
+    margin-right:10vw;
+}
+
+.logovideo{
+    margin-top:10em;
+    height: 30vmax;
+}
+
+.title{
+    width: 120%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    opacity: 0;
+}
+
+h1{
+    font-family: swiss;
+    font-size: 15vw;
+    color: rgba(0,0,0,0);;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+h5{
+    font-family: swiss;
+    font-size: 4vh;
+    color: black;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 3vh;
+}
+
+.infoSmallText{
+    font-family: swiss;
+    font-size: 2vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+
+}
+
+h2{
+    font-family: swiss;
+    font-size:15vh;
+    color: #fdf384;
+    margin-left:-2px;
+    margin-top:-3.5vh;
+    display:inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+h3{
+    font-family: swiss;
+    font-size:13vh;
+    color: #fdf384;
+    margin-left:-2px;
+    margin-top:-3.5vh;
+    display:inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+h4{
+    font-family: swiss;
+    font-size:7vh;
+    color: #fdf384;
+    margin-left:-2px;
+    margin-top:-3.5vh;
+    display:inline-block;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+.footer{
+    margin:0px;
+ }
+
+.footerHeader{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 5vh;
+    color: black;
+}
+
+.footerText{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.footerText:hover{
+
+    color: black;
+
+}
+
+.socialButton{
+    width: 8vh;
+}
+
+.socialButton:hover{
+    animation-name: jello;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
+}
+
+.activeFooter{
+    background-color: white;
+}
+
+.footerLogo{
+    width: 90%;
+}
+
+
+.nav-link{
+    font-family: 'Dawning of a New Day', cursive;
+    margin-right: 2vw;
+    font-size: 8vh;
+    color: black;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:black;
+}
+
+#arrBack{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#eventHolder{
+    padding-left:14%;
+    padding-right:14%;
+    padding-bottom: 10vh;
+}
+
+.itemHolder{
+    margin: 15%;
+    background-color: #f79250;
+    color:#f79250;
+    position: absolute;
+}
+
+.contentIMGL{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.contentIMGR{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.outlineBorder{
+    border: 1px solid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    position: absolute;
+}
+
+#item_1{
+    width:110%;
+    margin-top: -140px;
+    padding-left: 70px;
+}
+
+.contentRow{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.itemContent{
+    font-family: swiss;
+    font-size: 2vh;
+    color:black;
+    text-align: justify;
+}
+
+.canvas{
+    margin-left: -25px;
+    margin-top:-25px;
+    z-index: 1;
+}
+
+.canvasFooter{
+    margin-left:5%;
+}
+
+#simple_sketch, #simple_sketch2{
+    background-image: url("../assets/paper.jpg");
+    background-size: cover;
+    cursor: crosshair;
+}
+
+#footerContent{
+    margin-left:10%;
+    margin-right: 10%;
+    padding-top:7vh;
+    padding-bottom: 7vh;
+}
+
+.midPink{
+     color: #eb8ab9;
+ }
+
+.grey{
+    color:#437971;
+}
+
+
+
+.registerButton{
+    font-family: swiss;
+    background-color: #eb8ab9;
+    font-size: 2.5vh;
+    right:0;
+}
+
+.registerButton:hover{
+    text-decoration: underline;
+}
+
+
+.registerLink, .modelButton{
+    color: black;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.registerLink:hover, .modelButton:hover{
+    background-color:#fcf489;
+    color:black;
+}
+
+.st210{
+    font-family: 'Dawning of a New Day', cursive;
+    fill: grey;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.backArrow {
+    width: 12vh;
+    height: 12vh;
+    margin-left: 2vh;
+    transform: rotate(140deg);
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:         transform .2s ease-in-out;
+}
+
+.backArrow:hover {
+
+    transform:rotate(110deg) translateX(10px) translateY(15px);
+}
+
+.drawHint{
+    margin-left: 12vw;
+    margin-top:5vw;
+    font-family: 'Dawning of a New Day', cursive;
+    position: absolute;
+    font-size: 6vh;
+}
+
+
+
+
+.backArrow .draw-arrow {
+    stroke-width: 1;
+    stroke: black;
+    fill: none;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: draw;
+    animation-name: draw;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.backArrow .draw-arrow.tail-1 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.backArrow .draw-arrow.tail-2 {
+    -webkit-animation-delay: 1.7s;
+    animation-delay: 1.7s;
+}
+
+
+
+@-webkit-keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+#SVGMAP{
+    margin-top: 8vh;
+    width: 100%;
+}
+
+#my-embedded-typeform{
+    width: 90%;
+    height: 85%;
+}
+
+
+.artistHolder{
+    margin-top: 25vh;
+}
+
+#lastmusic{
+    margin-top: -15vh;
+}
+
+#kraaksmaak {
+    margin-top: -40vh;
+}
+
+#philou, #strawberry, #dubbellikkers{
+    margin-top: -50vh;
+}
+
+#hugo,#spma{
+    margin-top: -20vh;
+}
+
+#pablo, #zwartekoffie{
+    margin-top: -70vh;
+}
+
+#brazzband{
+    margin-top: -80vh;
+}
+
+.footerLogo{
+    margin-top:3vh;
+}
+
+#shop{
+    width: 80vw;
+    max-width: 80vw;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .artistHolder, #kraaksmaak, #kremlinDisko, #strawberry, #olivier, #brazzband, #spma, #pablo, #moods, #philou, #zwartekoffie, #dubbellikkers, #hugo, #lastmusic{
+        margin-top:10vh;
+    }
+    .footerLogo{
+        margin-top:5vh;
+    }
+
+    h3, h2, h4{
+        font-size: 8vh;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+
+    #SVGMAP{
+        margin-top: 0px;
+    }
+
+    #my-embedded-typeform{
+        width: 103%;
+    }
+    .registerLink{
+        z-index: 10;
+    }
+
+
+    #typeformHolder{
+        overflow-x: hidden;
+    }
+
+
+}
+
+
+.modal-content{
+    background-color:#ebf2b6 ;
+    font-family: swiss;
+}
+
+.modal-header{
+    border-color: rgba(0,0,0,0);
+}
+
+
+.lettersCulture, .lettersMusic, .lettersStands{
+    opacity: 0;
+}
+
+#Ondergrond_x5F_NIETAANKOMEN, #BOMEN, #glijbaan, #zandbak, #Schepje_x5F_zandbak{
+    opacity: 0;
+}
+
+
+
+#Stofwolk{
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-in;
+    -moz-transition: opacity 300ms ease-in;
+    -o-transition: opacity 300ms ease-in;
+    -ms-transition: opacity 300ms ease-in;
+    transition: opacity 300ms ease-in;
+}
+
+.rad, .vogels, .musicnotes, .wolken {
+    opacity: 0;
+}
+
+.wolkeffect1 {
+    animation-name: wolk1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 500ms;
+}
+
+.wolkeffect2{
+    animation-name: wolk2;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fly{
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+.fly0{
+    animation-name: fly0;
+    animation-timing-function: cubic-bezier(0.42,0,1,1);
+}
+.fly1{
+    animation-name: fly1;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.fly3{
+    animation-name: fly2;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.fly2{
+    animation-name: fly3;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.fly4{
+    animation-name: fly4;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.fly5{
+    animation-name: fly5;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.undergroundeffect{
+    animation-name: underground;
+    animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes fly0 {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(100px, -20px);}
+    50% {transform: translate(50px, 20px);}
+    75% {transform: translate(30px, 50px);}
+    100% {transform: translate(0px, 0px);}
+}
+@keyframes fly1 {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(100px, -20px);}
+    50% {transform: translate(50px, 20px);}
+    75% {transform: translate(30px, 50px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes fly2 {
+    0% {transform: translate(0px, 0px);}
+    33% {transform: translate(-200px, -50px);}
+    66% {transform: translate(200px, 120px);}
+    100% {transform: translate(0px, 0px);}
+}
+@keyframes fly3 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(500px, 20px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes fly4 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(-10px, -150px);}
+    100% {transform: translate(0px, 0px);}
+}
+@keyframes fly5 {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(-100px, -20px);}
+    50% {transform: translate(-50px, 80px);}
+    75% {transform: translate(50px, 50px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes underground {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(25px,0px);}
+    50% {transform: translate(25px, 15px);}
+    75% {transform: translate(0px, 15px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+
+
+@keyframes wolk1 {
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(200px, 120px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes wolk2 {
+    0% {transform: translate(0px, 0px);}
+    25% {transform: translate(-50px, -50px);}
+    50% {transform: translate(0px, 0px);}
+    75% {transform: translate(100px, 100px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+.slide-in{
+    animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(100%);
+        visibility: visible;
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
